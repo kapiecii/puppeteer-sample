@@ -3,7 +3,8 @@ exports.config = {
   output: './output',
   helpers: {
     Puppeteer: {
-      url: 'http://localhost:8000/'
+      url: 'http://localhost:8000/', 
+      show: true, // <--追記
     }
   },
   include: {
