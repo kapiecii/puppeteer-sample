@@ -1,5 +1,5 @@
 
-Feature('Puppetter Sample');
+Feature('Puppeteer Sample');
 
 Scenario('test something', (I) => {
     I.amOnPage('/');
